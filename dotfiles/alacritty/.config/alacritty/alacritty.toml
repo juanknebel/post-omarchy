@@ -1,0 +1,38 @@
+general.import = [ "~/.config/omarchy/current/theme/alacritty.toml" ]
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+normal = { family = "JetBrains Mono NL" }
+bold = { family = "JetBrains Mono NL" }
+italic = { family = "JetBrains Mono NL" }
+size = 9
+
+[window]
+padding.x = 14
+padding.y = 14
+decorations = "None"
+opacity = 0.98
+
+[keyboard]
+bindings = [
+{ key = "F11", action = "ToggleFullscreen" }
+]
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[selection]
+save_to_clipboard = true
+semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
+
+[terminal.shell]
+program = "/usr/bin/zsh"
+
+[cursor]
+style = "Block"
+vi_mode_style = "Beam"
+
+[terminal]
