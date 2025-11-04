@@ -9,9 +9,7 @@ stow --target ~/ hypr
 
 echo "✓ CustomHypr configuration stowed successfully"
 echo "Files managed:"
-echo "  - ~/.config/hypr/hyprland.conf"
 echo "  - ~/.config/hypr/monitors.conf"
 echo "  - ~/.config/hypr/input.conf"
-echo "  - ~/.config/hypr/bindings.conf"
 echo "  - ~/.config/hypr/custom/customrules.conf"
-
+# TODO: add bindings
